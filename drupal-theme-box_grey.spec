@@ -1,16 +1,18 @@
 %define		themename box_grey
+%define		_ver 4.6
 Summary:	Drupal Theme Box_grey
 Summary(pl):	Motyw Box_grey dla Drupala
 Name:		drupal-theme-%{themename}
-Version:	4.6.0
-Release:	0.2
+Version:	%{_ver}.0
+Release:	0.7
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://drupal.org/files/projects/%{themename}-%{version}.tar.gz
 # Source0-md5:	26ba07cd642dcf917eca0bbfe331ea7d
 URL:		http://drupal.org/node/11624
-Requires:	drupal >= 4.6.0
-Requires:	drupal-themeengine-phptemplate >= 4.6.0
+Requires:	drupal >= %{_ver}
+Requires:	drupal-themeengine-phptemplate >= %{_ver}
+Provides:	drupal(theme) = %{_ver}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
