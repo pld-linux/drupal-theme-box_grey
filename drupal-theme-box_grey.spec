@@ -1,7 +1,7 @@
 %define		themename box_grey
 %define		_ver 4.6
 Summary:	Drupal Theme Box_grey
-Summary(pl):	Motyw Box_grey dla Drupala
+Summary(pl.UTF-8):   Motyw Box_grey dla Drupala
 Name:		drupal-theme-%{themename}
 Version:	%{_ver}.0
 Release:	0.7
@@ -29,12 +29,12 @@ designed to be fairly robust with different sizes of content and
 lastly has a neutral grey colour scheme which will hopefully encourage
 people to change it.
 
-%description -l pl
-Box_grey ma byæ stosunkowo ³atwy do modyfikowania dla tych, którzy nie
-s± kompetentni w pozycjonowaniu css, ale mog± zarz±dzaæ kolorami,
-t³ami i obramowaniami css (albo przynajmniej chc± spróbowaæ). Jest
-zaprojektowany tak, aby byæ stosunkowo bogaty w ró¿ne rozmiary tre¶ci
-i ostatecznie mieæ neutralny szary schemat kolorów, zachêcaj±cy ludzi
+%description -l pl.UTF-8
+Box_grey ma byÄ‡ stosunkowo Å‚atwy do modyfikowania dla tych, ktÃ³rzy nie
+sÄ… kompetentni w pozycjonowaniu css, ale mogÄ… zarzÄ…dzaÄ‡ kolorami,
+tÅ‚ami i obramowaniami css (albo przynajmniej chcÄ… sprÃ³bowaÄ‡). Jest
+zaprojektowany tak, aby byÄ‡ stosunkowo bogaty w rÃ³Å¼ne rozmiary treÅ›ci
+i ostatecznie mieÄ‡ neutralny szary schemat kolorÃ³w, zachÄ™cajÄ…cy ludzi
 do jego zmiany.
 
 %prep
