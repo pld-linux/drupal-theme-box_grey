@@ -1,7 +1,7 @@
 %define		themename box_grey
 %define		_ver 4.6
 Summary:	Drupal Theme Box_grey
-Summary(pl.UTF-8):   Motyw Box_grey dla Drupala
+Summary(pl.UTF-8):	Motyw Box_grey dla Drupala
 Name:		drupal-theme-%{themename}
 Version:	%{_ver}.0
 Release:	0.7
